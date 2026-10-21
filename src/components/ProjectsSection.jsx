@@ -3,45 +3,36 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Used Car Prices Prediction",
+    description: "A machine learning model to predict used car prices based on various features.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["Python", "Pandas", "Scikit-learn"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Raflidwisanjani/JCDSAH-025_FINAL-PROJECT_GAMMA-GROUP",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Bike Sharing Demad Prediction",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Data analysis and prediction of bike sharing demand using machine learning model",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["Python", "Pandas", "Scikit-Learn"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Raflidwisanjani/Capstone-Project-Modul-3",
   },
-  {
-    id: 3,
-    title: "E-commerce Platform",
-    description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+
 ];
 
 export const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-24 px-4 relative">
-      <div className="container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+    <section id="projects" className="section-screen px-4 relative">
+      <div className="container mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-left">
           {" "}
           Featured <span className="text-primary"> Projects </span>
         </h2>
 
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+        <p className="text-left text-muted-foreground mb-12 mx-auto">
           Here are some of my recent projects. Each project was carefully
           crafted with attention to detail, performance, and user experience.
         </p>
@@ -100,7 +91,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Raflidwisanjani"
           >
             Check My Github <ArrowRight size={16} />
           </a>
